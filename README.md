@@ -105,10 +105,6 @@ We use these metrics to measure how accurately the model segments the landscape:
 *   **Visual Validation**: Raw masks are hard to interpret during debugging.
     *   **Solution**: Developed `colorize.py` to map class IDs to distinct RGB colors for instant visual verification.
 
-## 🖼️ Visual Results
-| Input Image | Ground Truth | Model Prediction |
-| :---: | :---: | :---: |
-| <img src="outputs/input_sample.png" width="200"> | <img src="outputs/target_sample.png" width="200"> | <img src="outputs/pred_sample.png" width="200"> |
 ## 🔬 Key Learnings
 - **Handling Sparse Labels:** Managed the gap between raw pixel values (0 to 10,000).
 - **Optimization:** Improved inference speed by 20% using [mention a technique like Half-Precision or Batching].
